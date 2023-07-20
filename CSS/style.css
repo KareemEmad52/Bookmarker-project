@@ -3,12 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 /* --------------------------------------------------------------------------------- */
-html{
-    position: relative;
-}
 body{
     font-family: 'Righteous', cursive;
     background-color: var(--bg-color);
+    position: relative;
+    min-height: 100vh;
 }
 :root{
     --bg-color : #f7ecde;
@@ -130,9 +129,6 @@ table{
     padding-top: 10px;
     font-family: 'PT Sans Caption', sans-serif;
 }
-.isValid{
-    border-color: #198754 ;
-    box-shadow: 0 0 0 0.25rem rgba(25,135,84,.25) ;
-
+.table{
+    margin-bottom: 0rem !important;
 }
-
