@@ -6,8 +6,6 @@
 body{
     font-family: 'Righteous', cursive;
     background-color: var(--bg-color);
-    position: relative;
-    min-height: 100vh;
 }
 :root{
     --bg-color : #f7ecde;
